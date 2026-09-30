@@ -13,6 +13,7 @@ Atualmente o projeto possui um teste de login:
 - Login com usuário válido
 - Preenchimento de usuário e senha
 - Validação do acesso à página de produtos
+- Tentativa de login com senha incorreta
 
 ## Tecnologias utilizadas
 
