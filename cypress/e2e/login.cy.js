@@ -35,4 +35,16 @@ describe('Teste de Login', () => {
 
     });
 
+    it('deve impedir login com campos vazios', () => {
+
+        cy.visit('https://www.saucedemo.com/');
+
+        cy.get('[data-test="login-button"]')
+            .click();
+
+        cy.get('[data-test="error"]')
+            .should('be.visible');
+            
+    });
+
 });
